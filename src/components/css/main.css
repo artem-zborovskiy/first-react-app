@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.section_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3%;
+    border-left: 15px solid transparent;
+    border-image: linear-gradient(#EC368D , #D72828);
+    border-image-slice: 1;
+}
+
+.info {
+    font-size: 20px;
+    line-height: 35px;
+    color: #727272;
+    margin: 0;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 44px;
+    margin: 15px 0;
+}
+
+.buy_btn {
+    border-radius: 20px;
+    color: white;
+    background-color: #D72828;
+    background-image: linear-gradient(#EC368D, #D72828);
+    padding: 20px 60px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.buy_btn:hover, .buy_btn:focus {
+    background-color: #D72828;
+    background-image: linear-gradient(#ff208c, #f32323);
+}
+
+.section_img {
+    padding: 3% 10% 3% 0;
+}
+
+.section_img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #D72828;
+    background-image: linear-gradient(#EC368D, #D72828);
+    z-index: -1;
+    border-radius: 15px 0 0 15px;
+}

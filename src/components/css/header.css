@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_text {
+    font-weight: bolder;
+    font-size: 30px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #FFCC17, #1796CC, #E90154);
+    margin-left: 10px;
+}
+
+.header_nav_link:hover,
+.header_nav_link:focus {
+    color: #E90154;
+}
